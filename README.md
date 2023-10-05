@@ -12,7 +12,7 @@
 
 <br>
 
-### ▶ <a href="apirest-forum.up.railway.app/swagger-ui.html">***App disponível aqui!***</a>
+### ▶ <a href="https://apirest-forum.up.railway.app/swagger-ui/index.html">***App disponível aqui!***</a>
 
 <br>
 

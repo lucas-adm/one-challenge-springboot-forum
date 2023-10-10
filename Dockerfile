@@ -11,4 +11,4 @@ FROM openjdk:17-jdk-slim
 
 EXPOSE 8080
 
-ENTRYPOINT ["java", "-jar", "target/forum-0.0.1-SNAPSHOT.jar"]
+ENTRYPOINT ["java", "-jar", "forum-0.0.1-SNAPSHOT.jar"]

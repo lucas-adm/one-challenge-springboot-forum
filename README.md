@@ -4,15 +4,16 @@
 
 <div align="center">
 
-<img width="100px" height="100px" src="https://railway.app/brand/logo-light.png"> ![java](https://github.com/loolcas/OracleNE-Forum/assets/118030896/56b6809f-726b-438a-8306-f0c2aa137452) ![spring](https://github.com/loolcas/OracleNE-Forum/assets/118030896/48f12733-0ba4-45eb-9b16-01479ddb99b5) ![jwt](https://github.com/loolcas/OracleNE-Forum/assets/118030896/f82adbfa-1052-4eef-9d44-85053969a39b) ![json](https://github.com/loolcas/OracleNE-Forum/assets/118030896/cd1c0b53-1a1b-4708-9254-0621040e1c10) ![mysql](https://github.com/loolcas/OracleNE-Forum/assets/118030896/852c7362-d081-499f-ab3a-8c578f1fc869)
+<img src="https://i.imgur.com/ONuAAaH.png"> ![java](https://github.com/loolcas/OracleNE-Forum/assets/118030896/56b6809f-726b-438a-8306-f0c2aa137452) ![spring](https://github.com/loolcas/OracleNE-Forum/assets/118030896/48f12733-0ba4-45eb-9b16-01479ddb99b5) ![jwt](https://github.com/loolcas/OracleNE-Forum/assets/118030896/f82adbfa-1052-4eef-9d44-85053969a39b) ![json](https://github.com/loolcas/OracleNE-Forum/assets/118030896/cd1c0b53-1a1b-4708-9254-0621040e1c10) ![postgresql](https://github.com/loolcas/OracleNE-Forum/assets/118030896/7eb0ca0c-eeb4-4884-9962-bef67b37d7ae)
 
-###### *Railway Cloud, Java, Spring Boot, JSON Web Token, Http Request, MySQL Server*
+
+###### *Render Cloud, Java, Spring Boot, JSON Web Token, Http Request, MySQL Server*
 
 </div>
 
 <br>
 
-### ▶ <a href="https://apirest-forum.up.railway.app/swagger-ui/index.html">***App disponível aqui!***</a>
+### ▶ <a href="https://oraclene-forum.onrender.com/swagger-ui/index.html">***App disponível aqui!***</a>
 
 <br>
 
@@ -85,5 +86,5 @@ public enum Status {
 
 > Cloud utilizada para o deploy:
 ```java
-https://railway.app
+https://render.com
 ```

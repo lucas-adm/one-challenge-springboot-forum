@@ -1,33 +1,32 @@
-<h1 align="center">Oracle Next Education Challenge - Forum </h1>
+<h3 align="center">Oracle Next Education Challenge - Forum </h3>
 
 <br>
 
 <div align="center">
 
-![render cloud](https://i.imgur.com/ONuAAaH.png) ![java](https://github.com/loolcas/OracleNE-Forum/assets/118030896/56b6809f-726b-438a-8306-f0c2aa137452) ![spring](https://github.com/loolcas/OracleNE-Forum/assets/118030896/48f12733-0ba4-45eb-9b16-01479ddb99b5) ![jwt](https://github.com/loolcas/OracleNE-Forum/assets/118030896/f82adbfa-1052-4eef-9d44-85053969a39b) ![json](https://github.com/loolcas/OracleNE-Forum/assets/118030896/cd1c0b53-1a1b-4708-9254-0621040e1c10) ![postgresql](https://github.com/loolcas/OracleNE-Forum/assets/118030896/bbf8c3a2-f922-4235-874f-ad0e9a4f5e1b)
+<img width="75px" height="75px" src="https://github.com/lucas-adm/one-challenge-springboot-forum/assets/118030896/963da4e2-d3ff-4de2-902c-14308618c84e">
+<img width="75px" height="75px" src="https://github.com/lucas-adm/one-challenge-springboot-forum/assets/118030896/92fc976d-58fa-40b1-bf2e-6769f63831ad">
+<img width="75px" height="75px" src="https://github.com/lucas-adm/one-challenge-springboot-hotel/assets/118030896/ba256dce-7970-404f-8ebc-93e482480e77">
+<img width="75px" height="75px" src="https://github.com/lucas-adm/one-challenge-springboot-forum/assets/118030896/314fdf40-8e8d-466c-ad78-2dfd9820e08d">
+<img width="75px" height="75px" src="https://i.imgur.com/ONuAAaH.png">
 
+###### *PostgreSQL, Java, Spring Boot, JWT, Render*
 
-
-###### *Render Cloud, Java, Spring Boot, JSON Web Token, Http Request, PostgreSQL Server*
+#
 
 </div>
 
-<br>
+### Como realizar as requisições ⁉
 
-### ▶ <a href="https://oraclene-forum-4g8q.onrender.com/swagger-ui/index.html">***App disponível aqui!***</a>
+#### ▶ Faça suas requisições *<a href="https://forum-cg7l.onrender.com/swagger-ui.html">aqui</a>* 
 
-<br>
-
-## **Como realizar as requisições ⁉**
-- Acesse o botão ***Try Out*** dentro do campo ***autenticacao-controller*** e passe esta chave:
+<details>
+<summary>/login</summary>
+  
 ```java
-{
-  "email":"admin@one.com",
-  "senha":"123456"
-}
+"email":"admin@one.com",
+"senha":"123456"
 ```
-
-<br>
 
 <div align="center">
   
@@ -37,21 +36,12 @@
 
 > Copie o valor do Token BCrypt retornado
 
-- Agora, na parte de cima da página, acesse o botão ***Authorize*** cole o valor copiado para liberar todas as requisições!
+</details>
 
-<br>
+<details>
+<summary>/cadastrar e /atualizar</summary>
 
-<div align="center">
-
-![](https://i.imgur.com/oFJOwA2.png)
-
-</div>
-
-> Requisições liberadas
-
-<br>
-
-### ***ENUMs***
+#### ***ENUMs***
 
 ###### Cursos disponíveis para cadastro
 ```java
@@ -74,18 +64,12 @@ public enum Status {
     FECHADO;
 }
 ```
+</details>
 
-<br>
+###### Banco de Dados e Server Deploy por <a href="https://render.com">*Render*</a>
 
 <div align="center">
 
 ![swagger](https://i.imgur.com/gBGculH.png)
   
 </div>
-
-<br>
-
-> Cloud utilizada para o deploy:
-```java
-https://render.com
-```

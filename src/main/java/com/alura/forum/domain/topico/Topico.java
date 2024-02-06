@@ -4,6 +4,8 @@ import jakarta.persistence.*;
 import lombok.*;
 
 import java.time.LocalDateTime;
+import java.time.ZoneId;
+import java.time.format.DateTimeFormatter;
 
 @Getter
 @Setter
@@ -25,6 +27,9 @@ public class Topico {
     @Column(name = "data_criacao")
     private LocalDateTime dataCriacao;
 
+    @Transient
+    private String dataBrasil;
+
     @Enumerated(EnumType.STRING)
     private Status status;
 
@@ -33,10 +38,14 @@ public class Topico {
     @Enumerated(EnumType.STRING)
     private Curso curso;
 
+    public String getDataBrasil() {
+        return this.dataCriacao != null ? this.dataCriacao.format(DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm:ss")) : null;
+    }
+
     public Topico(DadosTopico dados) {
         this.titulo = dados.titulo();
         this.mensagem = dados.mensagem();
-        this.dataCriacao = LocalDateTime.now();
+        this.dataCriacao = LocalDateTime.now(ZoneId.of("America/Sao_Paulo"));
         this.status = Status.NAO_RESPONDIDO;
         this.autor = dados.autor();
         this.curso = dados.curso();
@@ -58,7 +67,6 @@ public class Topico {
         if (dados.curso() != null) {
             this.curso = dados.curso();
         }
-
     }
 
 }

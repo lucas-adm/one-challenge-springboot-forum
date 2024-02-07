@@ -8,9 +8,9 @@
 <img width="75px" height="75px" src="https://github.com/lucas-adm/one-challenge-springboot-forum/assets/118030896/92fc976d-58fa-40b1-bf2e-6769f63831ad">
 <img width="75px" height="75px" src="https://github.com/lucas-adm/one-challenge-springboot-hotel/assets/118030896/ba256dce-7970-404f-8ebc-93e482480e77">
 <img width="75px" height="75px" src="https://github.com/lucas-adm/one-challenge-springboot-forum/assets/118030896/314fdf40-8e8d-466c-ad78-2dfd9820e08d">
-<img width="75px" height="75px" src="https://i.imgur.com/ONuAAaH.png">
+<img width="75px" height="75px" src="https://github.com/lucas-adm/one-challenge-springboot-hotel/assets/118030896/498fd551-bb05-4d22-8560-a14b3f1d076c">
 
-###### *PostgreSQL, Java, Spring Boot, JWT, Render*
+###### *PostgreSQL, Java, Spring Boot, JWT, Docker*
 
 #
 

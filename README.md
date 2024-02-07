@@ -36,6 +36,16 @@
 
 > Copie o valor do Token BCrypt retornado
 
+- Agora, na parte de cima da página, acesse o botão ***Authorize*** e cole o valor copiado para liberar todas as requisições!
+
+<br>
+
+<div align="center">
+
+![](https://i.imgur.com/oFJOwA2.png)
+
+</div>
+
 </details>
 
 <details>
